@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>גברברי גבים: המסע הגדול</title>
     <script src="https://cdn.tailwindcss.com"></script>
+        <!-- ייבוא פונט Kalam לכתב יד -->
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
     <style>
         /* הגדרת פונט כללי ורקע כהה */
         body {
@@ -27,6 +29,14 @@
             font-weight: 900;
             color: #d97706; /* כתום-זהב חם */
             line-height: 1.2;
+        }
+        /* עיצוב מיוחד לסלוגן בכתב יד */
+        .handwritten-slogan {
+            font-family: 'Kalam', cursive; /* יישום פונט כתב יד */
+            font-size: 1.8rem; /* הגדלת גודל הפונט */
+            font-weight: 700;
+            color: #16a34a; /* צבע ירוק בולט */
+            line-height: 1.4;
         }
         .subtitle {
             font-size: 1.5rem;
@@ -73,6 +83,13 @@
             }
             .title-primary {
                 font-size: 2rem;
+            }
+            .handwritten-slogan {
+                font-size: 1.5rem; /* הקטנת הגודל במובייל */
+            }
+            .cta-button {
+                font-size: 1.25rem;
+                padding: 1rem;
             }
         }
     </style>
